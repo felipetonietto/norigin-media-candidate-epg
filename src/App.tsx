@@ -1,12 +1,9 @@
 import React from "react";
-import Counter from "./features/counter/Counter";
+
+import Router from "./components/router";
 
 function App(): JSX.Element {
-  return (
-    <div className="App">
-      <Counter />
-    </div>
-  );
+  return <Router />;
 }
 
 export default App;

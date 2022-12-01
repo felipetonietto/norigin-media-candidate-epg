@@ -3,15 +3,20 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "start:mock-api": "./node_modules/.bin/osprey-mock-service -f ./node_modules/nm-mock-api/demo.raml -p 1337 --cors",
+    "start": "node ./node_modules/nm-mock-api/scripts/updateEpg.js && npm run start:mock-api",
     "build": "tsc && vite build",
     "serve": "vite preview",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.13",
     "@reduxjs/toolkit": "^1.6.1",
+    "date-fns": "^2.29.3",
+    "nm-mock-api": "git+https://github.com/NoriginMedia/mock-api.git#cloudberry",
     "react": "^18",
     "react-dom": "^18",
-    "react-redux": "^8.0.2"
+    "react-router-dom": "^6.4.3"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
