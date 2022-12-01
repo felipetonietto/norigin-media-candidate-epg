@@ -54,7 +54,7 @@ function TimeLine() {
 
     return (
       <span
-        className="h-full text-sm width-[300px] leading-6 border inline-block border-gray-900 bg-gray-600 border-solid rounded-md"
+        className="h-full text-sm width-[300px] leading-6 border inline-block border-gray-900 bg-gray-600 border-solid rounded-md px-[130px]"
         style={cellStyles}
         key={item}
         id={hours}

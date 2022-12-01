@@ -89,8 +89,10 @@ function Schedule(props: ScheduleProps) {
                     <Link to={schedule.id} key={schedule.start}>
                       <div
                         className={classNames(
-                          isLive ? "bg-gray-800" : "bg-gray-900",
-                          "text-xs h-full border border-gray-600 hover:bg-gray-800 border-solid rounded-md"
+                          isLive
+                            ? "bg-gray-600 border-gray-500 hover:bg-gray-500"
+                            : "bg-gray-800",
+                          "text-xs h-full border border-gray-600 hover:bg-gray-700 border-solid rounded-md py-3"
                         )}
                         // className="text-xs h-full border-2 border-gray-600 bg-gray-900 hover:bg-gray-800 border-solid rounded-md"
                         style={{ width: `${width}px` }}
