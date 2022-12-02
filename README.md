@@ -8,10 +8,11 @@ This is a demo application of a EVG, which consists of a TV schedule playing for
 2. The marker indicates the current time.
 3. When opened, the window is automatically scrolled to the current time.
 4. If pressed, the `NOW` button will scroll to the current time.
-5. It's possible to scale the application in the future with other routes, other features.
-6. The view is responsive.
-7. Initially, Redux was intalled, then the need for just one global state was identified.
-8. The calendar above was designed, but then mock database has no other day than today, so it's been dismissed.
+5. There's a little details page, that's been roughly done, just to use the route and add a little interaction.
+6. It's possible to scale the application in the future with other routes, other features.
+7. The view is responsive.
+8. Initially, Redux was intalled, then the need for just one global state was identified.
+9. The calendar above was designed, but then mock database has no other day than today, so it's been dismissed.
 
 ## Getting started
 
